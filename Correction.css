@@ -35,7 +35,7 @@ div#Tab a:hover {
 }
 
 div#Tab a span  {
-display: block;
+display: none;
 position : absolute;
 top : 200px;
 margin : auto;
@@ -50,6 +50,7 @@ background-color:white;
 div#Tab a:hover span {
 
 z-index : 1;
+display: block;
 
 }
 
